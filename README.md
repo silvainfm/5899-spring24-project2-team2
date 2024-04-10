@@ -6,6 +6,7 @@ We aimed to construct a long/short portfolio by leveraging sentiment analysis fr
 
 # Modeling Results
 ## GPT Model
+## Bert Model Finetuned on Financial news
 
 # Portfolio Constructed
 
