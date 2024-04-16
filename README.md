@@ -19,7 +19,7 @@ Initially, the entire dataset was entrusted to ChatGPT for labeling purposes. Ho
 * The model loss of 0.11 and an accuracy of over 98%.
 * We split the data based on the article to get a better idea of the sentiment and the sentiment probability for each.
 
-# Alphalens
+# AlphaLens
 ## AlphaLens Reloaded Package
 The team discovered an updated version of AlphaLens that was utilized. This version can be found here: https://github.com/stefan-jansen/alphalens-reloaded
 
