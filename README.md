@@ -7,17 +7,17 @@ Initially, the entire dataset was entrusted to ChatGPT for labeling purposes. Ho
 
 # Models Used
 ## Finbert
-* Finetuned version of bert-base-uncased on the dataset
+* Finetuned version of bert-base-uncased on the dataset.
 * The training dataset consists of 4840 sentences from English language financial news categorized by sentiment. 
-* The model has an accuracy of over 97% and a loss of .45
+* The model has an accuracy of over 97% and a loss of .45.
 * We split the data based on the impact type of the article to get the probability of the sentiment of each article and check the accuracy of each impact type. 
 
 ## DistilBert Model Finetuned on Financial news
-* Finetuned version of distilroberta-base
+* Finetuned version of distilroberta-base.
 * On average DistilRoBERTa is twice as fast as Roberta-base.
 * The training dataset consists of 4840 sentences from English language financial news categorized by sentiment. 
-* The model Loss of 0.11 and an accuracy of over 98%
-* We split the data based on the article to get a better idea of the sentiment and the sentiment probability for each
+* The model Loss of 0.11 and an accuracy of over 98%.
+* We split the data based on the article to get a better idea of the sentiment and the sentiment probability for each.
 
 # Alphalens
 ## AlphaLens Reloaded Package
