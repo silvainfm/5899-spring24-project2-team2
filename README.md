@@ -27,7 +27,7 @@ This approach significantly increased the variability of data in the identified 
 # Alphalens
 ## AlphaLens Reloaded Package
 We found a kept up version of alphalens that we were able to work with. 
-
+## Results 
 We focused on the FinBert model for testing since it provided better results and ran alphalens on the different events. 
 The default events provided the best return, with over 6%.
 
