@@ -5,7 +5,7 @@ This project aims to utilize NLP techniques to discern the presence of various e
 ## Data Labelling
 Initially, the entire dataset was entrusted to ChatGPT for labeling purposes. However, this approach yielded a lack of variability in the labeled data, undermining the reliability of the outcomes. In response, a modified strategy was implemented, wherein ChatGPT was provided with the complete dataset but was directed to identify one event at a time before progressing to the next. Despite this adjustment, ChatGPT's performance remained suboptimal. Subsequently, a few-shot learning approach, which is a method used to make predictions with a limited number of labeling samples, was adopted to enhance ChatGPT's proficiency. After that, the entire dataset was again presented to ChatGPT, this time for the identification of events and their impacts separately. Furthermore, ChatGPT was tasked with discerning between causal and non-causal relationships among the articles, followed by labeling the relevant companies discussed in each article. By segmenting the tasks and providing comprehensive guidance, this methodology notably augmented the variability of data in the identified events, thereby enhancing the overall effectiveness of the process. This was the dataset used for modeling. 
 
-# Models Used
+# Models
 ## Finbert
 * Finetuned version of bert-base-uncased on the dataset.
 * The training dataset consists of 4840 sentences from English language financial news categorized by sentiment. 
