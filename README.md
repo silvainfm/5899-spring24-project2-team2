@@ -28,6 +28,9 @@ This approach significantly increased the variability of data in the identified 
 ## AlphaLens Reloaded Package
 We found a kept up version of alphalens that we were able to work with. 
 
+We focused on the FinBert model for testing since it provided better results and ran alphalens on the different events. 
+The default events provided the best return, with over 6%.
+
 # Next Steps
 * Construct a directed graph with event entities as nodes and causal links as directed edges, where the edge direction indicates the flow or order of causality. Assign weights to edges based on the confidence of the causal, with stronger connections having higher weights. 
 * Construct a directed graph where events and companies are represented as two separate nodes, and the impact of events on companies is depicted as directed edges. Assign weights to the edges based on the confidence of the impact of the events. Stronger connections, indicating more significant impacts, will be assigned higher weights
