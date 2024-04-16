@@ -14,7 +14,7 @@ This approach significantly increased the variability of data in the identified 
 ## Finbert
 * Finetuned version of bert-base-uncased on the dataset
 * The training dataset consists of 4840 sentences from English language financial news categorised by sentiment. 
-* The model has an accuracy of over 87% and a loss of .45
+* The model has an accuracy of over 97% and a loss of .45
 * We split the data based on the impact type of the article to get the probability of the sentiment of each article and check the accuracy of each impact type. 
 
 ## DistilBert Model Finetuned on Financial news
