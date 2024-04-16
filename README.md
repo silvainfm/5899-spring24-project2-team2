@@ -16,15 +16,15 @@ Initially, the entire dataset was entrusted to ChatGPT for labeling purposes. Ho
 * Finetuned version of distilroberta-base.
 * On average DistilRoBERTa is twice as fast as Roberta-base.
 * The training dataset consists of 4840 sentences from English language financial news categorized by sentiment. 
-* The model Loss of 0.11 and an accuracy of over 98%.
+* The model loss of 0.11 and an accuracy of over 98%.
 * We split the data based on the article to get a better idea of the sentiment and the sentiment probability for each.
 
 # Alphalens
 ## AlphaLens Reloaded Package
-The team discovered an updated version of AlphaLens that we could utilize. This version can be found here: https://github.com/stefan-jansen/alphalens-reloaded
+The team discovered an updated version of AlphaLens that was utilized. This version can be found here: https://github.com/stefan-jansen/alphalens-reloaded
 
 ## Results 
-The tea, focused on using the results from the FinBert model for testing since it provided better results. Alphalens was run on the different events. 
+The team, focused on using the results from the FinBert model for testing since it provided better results. Alphalens was run on the different events. 
 The default events provided the best return, with over 6%.
 
 # Next Steps
