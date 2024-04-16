@@ -7,13 +7,13 @@ Initially, the entire dataset was entrusted to ChatGPT for labeling purposes. Ho
 
 # Models
 ## Finbert
-* Finetuned version of bert-base-uncased on the dataset.
+* Fine tuned version of bert-base-uncased on the dataset.
 * The training dataset consists of 4840 sentences from English language financial news categorized by sentiment. 
 * The model has an accuracy of over 97% and a loss of .45.
 * We split the data based on the impact type of the article to get the probability of the sentiment of each article and check the accuracy of each impact type. 
 
-## DistilBert Model Finetuned on Financial news
-* Finetuned version of distilroberta-base.
+## DistilBert
+* Fine tuned version of distilroberta-base.
 * On average DistilRoBERTa is twice as fast as Roberta-base.
 * The training dataset consists of 4840 sentences from English language financial news categorized by sentiment. 
 * The model loss of 0.11 and an accuracy of over 98%.
